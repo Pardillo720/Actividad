@@ -4,7 +4,7 @@ if [ -z "$1" ] || [ ! -d "$1" ]; then
   exit 1
 fi
 
-if ! grep -rl "home" "$1"; then
+if ! grep -rl "$2" "$1"; then
 	echo "No se encontraron archivos con la palabra 'home'"
 fi
 
