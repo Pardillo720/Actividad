@@ -9,4 +9,4 @@ El programa recibe una carpeta, proporcionada por el usuario, y busca la palabra
 ## Validación
 1. Si la palabra existe dentro de los archivos, mostrará la ruta
 2. Si la carpeta no es válida el programa dará error
-3. Si ningún archivo contiene la palabra "home" el programa te lo hará saber
+3. Si ningún archivo contiene la palabra "(tu variable)" el programa te lo hará saber
